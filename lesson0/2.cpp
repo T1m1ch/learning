@@ -3,11 +3,9 @@
 #include <locale>
 using namespace std;
 
-int main1() {
+int main() {
 	setlocale(LC_ALL, "RU");
-	int a = 10;
-	int b = 2 * --a; //18
-	a = 10;
-	b = 2 * a--; //20
+	char a = 47;
+	cout << a << endl;
 	return 0;
 }
